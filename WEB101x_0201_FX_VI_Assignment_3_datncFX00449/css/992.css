@@ -1,0 +1,72 @@
+body {
+    max-width: 1280px;
+}
+
+.nav-left {
+    margin-left: 2em;
+}
+
+.nav-right {
+    margin-right: 2em;
+}
+
+.banner {
+    background-image: url("../images/lodging.png");
+    height: 31.25em;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-text {
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    left: 5%;
+}
+
+.banner-text h1 {
+    font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 50;
+}
+
+.text-content {
+    background-color: lightgray;
+}
+
+.text-content h2 {
+    margin-top: 1em;
+}
+
+.text-content p {
+    padding-bottom: 1em;
+}
+
+.img-content {
+    background-color: lightgray;
+    padding-bottom: 1em;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    margin: 0.85em 0;
+}
+
+.footer {
+    padding: 2em 0;
+    border-top: 0.0125em solid rgb(228, 223, 223);
+    background-color: rgb(240, 235, 235);
+}
+
+.footer h3 {
+    font-weight: bold;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+}

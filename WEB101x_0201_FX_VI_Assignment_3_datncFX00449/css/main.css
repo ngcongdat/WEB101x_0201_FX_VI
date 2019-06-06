@@ -1,0 +1,39 @@
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: gray;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-link {
+    color: gray;
+    font-weight: bold;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav a {
+    font-size: 0.75em;
+}
+
+.img {
+    text-align: center;
+}
