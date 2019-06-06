@@ -1,0 +1,25 @@
+ .sticky-top {
+     background-color: lightgray;
+     height: 80px;
+     line-height: 46px;
+     border-radius: 2em;
+ }
+
+ .card-meta {
+     padding-left: 2em;
+     margin-bottom: 1em;
+ }
+
+ .footer {
+     padding: 1em 0;
+     margin-bottom: 2em;
+     background-color: lightgray;
+     border-radius: 2em;
+     text-align: center;
+ }
+
+ @media only screen and (max-width: 767px) {
+     body {
+         min-width: 550px;
+     }
+ }
