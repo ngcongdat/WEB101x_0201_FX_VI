@@ -1,0 +1,76 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {float: left;}
+
+li a {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+
+.signup {
+    margin-top: 15px;
+    padding-left: 1100px;
+}
+.brand {padding-left: 60px; margin-top: 15px;}
+.browse, .login, .help {
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+#banner {
+    position: relative;
+    margin-top: 20px;
+    width: auto;
+}
+
+#textbanner {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    line-height: 0.4;
+    font-size: 27px;
+    color: white;
+}
+
+#textbanner h1 {
+    
+}
+
+#main {
+    background-color: #EDEDED;
+    margin: 0;
+}
+
+#main h2 {
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+#main p {padding-left: 60px;}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+.td1, .td4 {padding-left: 60px;padding-right: 20px;padding-bottom: 10px;}
+.td2, .td5 {padding-left: 20px;padding-right: 20px;padding-bottom: 10px;}
+.td3 {padding-left: 20px;padding-right: 60px; padding-top: 15px; padding-bottom: 25px;}
+
+td img {
+    width: 100%;
+}
