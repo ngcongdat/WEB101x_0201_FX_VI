@@ -1,0 +1,106 @@
+body {
+    width: 1280px;
+    margin: 0px auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#topbar {
+    padding: 0px 60px;
+}
+
+ul {  
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(255, 242, 125);
+}
+
+#browse, #brand {float: left;}
+#signup, #login, #help {float: right;}
+#browse {padding-left: 20px;}
+#login, #help {padding-right: 20px;}
+
+#banner {
+	background-image: url("../images/lodging.png");
+    height: 500px;
+	width: 99.99%
+}
+
+#textbanner {
+    padding-top: 110px;
+    padding-left: 60px;
+    line-height: 0.4;
+    font-size: 27px;
+    color: white;
+}
+
+#textbanner > h1 {font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif;}
+
+#main {
+    background-color: #EDEDED;
+    font-family: sans-serif;
+	width: 99.99%;
+	padding: 0px 60px;
+	margin: 0;
+	overflow: auto;
+}
+
+.main-pic {
+	float: left;
+	width: 33.33%;
+}
+#tokyo, #paris {text-align: center;}
+#newyork, #paris {margin-top: 25px;}
+#invite {margin-bottom: 30px; text-align: right;}
+
+#main h2 {
+    padding-top: 25px;
+    margin: 0;
+}
+
+#travel, #host, #trust {
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    border-top: 1px solid gainsboro;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+#footer h3 {font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif !important;}
+#footer p {
+    font-size: 14px;
+}
+#travel {
+    padding-left: 60px;
+    word-spacing: 1px; 
+}
+
+#host {
+    padding-left: 35px;
+    padding-right: 20px;
+    word-spacing: 1px;
+}
+
+#trust {
+    padding-left: 10px;
+    padding-right: 30px;
+}
